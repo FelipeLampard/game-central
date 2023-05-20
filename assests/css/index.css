@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300&display=swap');
+main{
+    display: grid;
+    grid-template-areas: "nav nav" "aside section" "footer footer";
+    grid-template-columns: 8% auto 5%;
+    height: 90vh;    
+}
+
+
+nav{
+    grid-area: nav;
+    
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+    background-color: rgb(95, 1, 75);
+    color: white
+}
+section{
+    grid-area: section;
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    grid-template-rows: 2fr 1fr;
+    background-color: beige;
+}
+
+aside{
+    grid-area: aside;
+    
+    background-color: rgb(95, 1, 75);
+    color: white;
+    padding: 0.2rem;
+    display: flex;
+    flex-direction: column;
+}
+    
+footer{
+    grid-area: footer;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(95, 1, 75);
+    padding: 1rem;
+}
+    
+.fot{
+    padding: 1rem;
+    color: white;
+}    
+
+body{
+    margin: 0;
+    font-family: Lato;
+}
+
+.info{
+    padding: 0.8rem;
+
+}
+.side{
+    font-size: 300 italic;
+}
+
+.caja{
+min-height: 200px;
+width: 70%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.3rem;
+    padding-top: 0.2rem;
+    background-color: white;
+}
+
+img{
+    max-width: 100%;
+    padding: 0.2rem;    
+}
+
+.name{
+    font-weight: 400;
+}
+
+button{
+    background-color: rgb(206, 74, 206);
+    padding: 0.3rem;
+    }
+
+button:hover{
+    color: white;
+    background-color: rgb(24, 4, 209);
+}
+
+.price{
+    font-weight: 300 italic;
+    padding: 0.2rem;
+}
+
+.categories{
+    padding: 0.3rem;
+}

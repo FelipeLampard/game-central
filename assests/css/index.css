@@ -18,12 +18,12 @@ nav{
 }
 section{
     grid-area: section;
-    
     display: grid;
-    grid-template-columns: repeat(3, 1fr) ;
-    grid-template-rows: 2fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     background-color: beige;
 }
+    
 
 aside{
     grid-area: aside;
@@ -71,7 +71,7 @@ width: 70%;
     flex-direction: column;
     align-items: center;
     margin: 0.3rem;
-    padding-top: 0.2rem;
+    padding: 0.5rem;
     background-color: white;
 }
 

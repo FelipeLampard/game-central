@@ -27,7 +27,6 @@ section{
 
 aside{
     grid-area: aside;
-    
     background-color: rgb(95, 1, 75);
     color: white;
     padding: 0.2rem;
@@ -102,3 +101,4 @@ button:hover{
 .categories{
     padding: 0.3rem;
 }
+    

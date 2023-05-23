@@ -3,7 +3,7 @@ main{
     display: grid;
     grid-template-areas: "nav nav" "aside section" "footer footer";
     grid-template-columns: 8% auto 5%;
-    height: 90vh;    
+    height: 100vh;    
 }
 
 

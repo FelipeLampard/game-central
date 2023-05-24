@@ -2,7 +2,7 @@
 main{
     display: grid;
     grid-template-areas: "nav nav" "aside section" "footer footer";
-    grid-template-columns: 8% auto 5%;
+    grid-template-columns: 8% auto;
     height: 100vh;    
 }
 
